@@ -45,7 +45,7 @@
           </select>
           <label for="searchArea">瀏覽紀錄</label>
         </div>
-        <div class="card overflow-auto">
+        <div class="card overflow-y-auto">
           <div v-if="searchArea.Name">
             <img :src="searchArea.Picture1" class="card-img-top" :alt="searchArea.Name" />
             <iframe
@@ -104,6 +104,10 @@ onMounted(() => {
 </script>
 
 <style lang="scss" scoped>
+.container{
+    height: 86vh;
+  }
+
 .option {
     overflow-y: auto;
   }

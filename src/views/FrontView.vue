@@ -2,13 +2,13 @@
   <header>
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <RouterLink class="nav-link" to="/easy">OrderDrink-Easy</RouterLink>
+        <RouterLink class="nav-link" to="/easy">點飲料(簡易版)</RouterLink>
       </li>
       <li class="nav-item">
-        <RouterLink class="nav-link" to="/normal">OrderDrink</RouterLink>
+        <RouterLink class="nav-link" to="/normal">點飲料(產生訂單)</RouterLink>
       </li>
       <li class="nav-item">
-        <RouterLink class="nav-link" to="/viewpoint">ViewPoint</RouterLink>
+        <RouterLink class="nav-link" to="/viewpoint">景點介紹</RouterLink>
       </li>
     </ul>
   </header>
